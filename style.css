@@ -1,0 +1,51 @@
+.userDropdown {
+  display: none;
+}
+
+.userDropdownBtn:hover .userDropdown {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+}
+
+@media screen and  (max-width:575px) {
+  .resp {
+    display: none !important;
+  }
+
+}
+
+.like {
+  color: white !important;
+}
+
+
+.Icon{
+  color: white !important;
+  padding: 20px 30px !important;
+}
+.Icon:hover{
+  background-color: black !important ;
+  font-size: 25px !important  ;
+}
+
+
+.changeHov:hover{
+  color: black !important;
+  border-bottom: 1px solid white !important;
+  /* font-size: 200px !important; */
+}
+
+.imgCart{
+  height: 150px !important;
+  width: 150px !important;
+  border-radius: 5px 5px 5px 5px ;
+  object-fit: cover ;
+  
+}
+
+.carEnd{
+  padding-bottom: 20px;
+  border-bottom:1px solid red ;
+}
